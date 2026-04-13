@@ -4,8 +4,7 @@ int main()
     int n,n1,n2,n3;
     int one,two,three;
     int addition;
-    int value;
-    int Final_value;
+    
 
     printf("Enter a number:");
     scanf("%d",&n);
@@ -19,10 +18,9 @@ int main()
     three=n3*n3*n3;
      
     addition=one+two+three;
-    value=n-addition;
-    Final_value=addition+value;
+    
 
-    if(n%2!=0)
+    if(addtion==n)
     {
         printf("Number is Armstrong.");
     }
