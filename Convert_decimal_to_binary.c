@@ -7,7 +7,7 @@ int main()
 printf("Enter the number to convert: ");    
 scanf("%d",&n);    
 for(i=0;n>0;i++)    
-{    
+{   
 a[i]=n%2;    
 n=n/2;    
 }    
